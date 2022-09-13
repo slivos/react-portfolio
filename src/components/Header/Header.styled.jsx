@@ -17,7 +17,7 @@ export const Logo = styled.span`
   font-size: 2rem;
   font-weight: 700;
   margin-left: 2rem;
-  color: ${({ lightTheme }) => (lightTheme ? '#00818A' : '#00ffdb')};
+  color: ${({ lightTheme }) => (lightTheme ? '#08085E' : '#00ffdb')};
 
   @media (max-width: 380px) {
     font-size: 1.5rem;

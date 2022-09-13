@@ -13,7 +13,7 @@ export const FooterElement = styled.footer`
   background-color: transparent;
 
   & small span {
-    color: ${({ lightTheme }) => (lightTheme ? '#00818A' : 'white')};
+    color: ${({ lightTheme }) => (lightTheme ? '#08085E' : 'white')};
   }
 
   @media (max-width: 380px) {
