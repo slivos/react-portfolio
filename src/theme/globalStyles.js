@@ -62,6 +62,12 @@ a {
 	}
 }
 
+@media (max-height: 880px) {
+    .icon {
+		height: 47.5px;
+	}
+  }
+
 @media (max-height: 750px) {
     .App {
 		min-height: 100vh;

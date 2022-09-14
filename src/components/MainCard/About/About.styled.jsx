@@ -48,6 +48,10 @@ export const Wrapper = styled.div`
   @media (max-width: 380px) {
     line-height: 2.6rem;
   }
+
+  @media (max-height: 880px) {
+    font-size: 1.275rem;
+  }
 `;
 
 export const H2 = styled.h2`
@@ -62,5 +66,9 @@ export const H2 = styled.h2`
   @media (max-width: 380px) {
     font-size: 2.2rem;
     text-align: center;
+  }
+
+  @media (max-height: 880px) {
+    font-size: 2.75rem;
   }
 `;

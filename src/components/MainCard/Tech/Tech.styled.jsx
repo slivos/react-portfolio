@@ -20,9 +20,13 @@ export const WrapperTech = styled(Wrapper)`
 `;
 
 export const H2Tech = styled(H2)`
-  margin-top: 0;
+  margin: 0 0 3rem;
 
   @media (max-width: 1340px) {
     margin: 0 0 2.5rem;
+  }
+
+  @media (max-height: 880px) {
+    margin: 0 0 2rem;
   }
 `;

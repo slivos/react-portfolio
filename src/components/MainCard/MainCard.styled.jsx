@@ -48,7 +48,7 @@ export const Wrapper = styled.div`
     width: 85vw;
   }
 
-  @media (max-height: 880px) {
+  @media (min-width: 1341px) and (max-height: 880px) {
     height: 40em;
   }
 `;
