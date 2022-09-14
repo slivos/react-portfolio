@@ -62,4 +62,11 @@ a {
 	}
 }
 
-  `
+@media (max-height: 880px) {
+    .App {
+		min-height: 100vh;
+		height: unset;
+	}
+  }
+
+`

@@ -13,6 +13,12 @@ export const Container = styled.div`
     height: unset;
     margin: 30px 0px;
   }
+
+  @media (max-height: 880px) {
+    min-height: 100vh;
+    height: unset;
+    margin: 30px 0px;
+  }
 `;
 
 export const Wrapper = styled.div`
