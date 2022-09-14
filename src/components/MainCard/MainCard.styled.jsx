@@ -15,9 +15,13 @@ export const Container = styled.div`
   }
 
   @media (max-height: 880px) {
+    margin: 10px 0px;
+  }
+
+  @media (max-height: 750px) {
     min-height: 100vh;
     height: unset;
-    margin: 30px 0px;
+    margin: 30px 0;
   }
 `;
 
@@ -42,5 +46,9 @@ export const Wrapper = styled.div`
 
   @media (max-width: 380px) {
     width: 85vw;
+  }
+
+  @media (max-height: 880px) {
+    height: 40em;
   }
 `;

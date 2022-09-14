@@ -62,10 +62,10 @@ a {
 	}
 }
 
-@media (max-height: 880px) {
+@media (max-height: 750px) {
     .App {
 		min-height: 100vh;
-		height: unset;
+	height: unset;
 	}
   }
 

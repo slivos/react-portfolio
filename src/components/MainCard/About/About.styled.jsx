@@ -23,6 +23,10 @@ export const ContainerAbout = styled.div`
   @media (max-width: 380px) {
     width: 85vw;
   }
+
+  @media (max-height: 880px) {
+    bottom: 5%;
+  }
 `;
 
 export const Wrapper = styled.div`
