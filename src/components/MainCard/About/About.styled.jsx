@@ -17,7 +17,6 @@ export const ContainerAbout = styled.div`
     width: 90vw;
     height: auto;
     position: unset;
-    border-radius: 24px;
   }
 
   @media (max-width: 380px) {

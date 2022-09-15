@@ -11,12 +11,20 @@ export const ContainerTech = styled(ContainerAbout)`
 `;
 
 export const WrapperTech = styled(Wrapper)`
-  width: 20em;
+  width: 20rem;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   row-gap: 50px;
   justify-content: center;
   align-items: center;
+
+  @media (max-width: 768px) {
+    width: 100%;
+  }
+
+  @media (max-width: 380px) {
+    column-gap: 30px;
+  }
 `;
 
 export const H2Tech = styled(H2)`

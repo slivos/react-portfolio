@@ -29,10 +29,10 @@ export const Wrapper = styled.div`
   width: 90%;
   height: 50em;
   position: relative;
-  border-radius: 24px;
   background-color: #091a28;
   border-top: 4px solid #ff2965;
   border-bottom: 4px solid #00ffdb;
+  border-radius: 24px;
 
   @media (max-width: 1340px) {
     height: auto;

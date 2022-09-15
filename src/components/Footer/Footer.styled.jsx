@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 export const FooterElement = styled.footer`
   width: 100%;
+  padding: 0 1rem;
   height: auto;
   display: flex;
   flex-direction: row;
@@ -18,5 +19,6 @@ export const FooterElement = styled.footer`
 
   @media (max-width: 380px) {
     font-size: 0.8rem;
+    text-align: center;
   }
 `;

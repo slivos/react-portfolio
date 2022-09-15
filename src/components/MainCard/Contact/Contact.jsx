@@ -1,12 +1,16 @@
 import React from 'react';
-import { Wrapper } from '../About/About.styled';
-import { ContainerContact, H2Contact, SocialWrapper } from './Contact.styled';
+import {
+  ContainerContact,
+  WrapperContact,
+  H2Contact,
+  SocialWrapper,
+} from './Contact.styled';
 
 const Contact = () => {
   return (
     <ContainerContact id="contact-con">
       <H2Contact>Kontakt.</H2Contact>
-      <Wrapper>
+      <WrapperContact>
         <div>slivos.frontend@gmail.com</div>
         <div>+421 905 495 677</div>
         <SocialWrapper>
@@ -55,7 +59,7 @@ const Contact = () => {
             </svg>
           </a>
         </SocialWrapper>
-      </Wrapper>
+      </WrapperContact>
     </ContainerContact>
   );
 };

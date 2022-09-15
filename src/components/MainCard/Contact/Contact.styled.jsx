@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { ContainerAbout, H2 } from '../About/About.styled';
+import { ContainerAbout, Wrapper, H2 } from '../About/About.styled';
 
 export const ContainerContact = styled(ContainerAbout)`
   left: 66.66%;
@@ -10,8 +10,24 @@ export const ContainerContact = styled(ContainerAbout)`
   }
 `;
 
+export const WrapperContact = styled(Wrapper)`
+  text-align: center;
+  @media (max-width: 380px) {
+    & div:first-child {
+      word-break: break-word;
+    }
+  }
+`;
+
 export const H2Contact = styled(H2)`
   margin-top: 0;
+
+  @media (max-width: 190px) {
+    & {
+      word-break: break-word;
+      text-align: center;
+    }
+  }
 `;
 
 export const SocialWrapper = styled.div`
