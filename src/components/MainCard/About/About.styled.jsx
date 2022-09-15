@@ -57,6 +57,7 @@ export const Wrapper = styled.div`
 export const H2 = styled.h2`
   font-size: 3rem;
   margin: 1.5rem 0 1rem;
+  padding: 0 0.5rem;
   color: #00ffdb;
 
   @media (max-width: 1340px) {
