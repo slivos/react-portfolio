@@ -11,21 +11,10 @@ export const ContainerContact = styled(ContainerAbout)`
 `;
 
 export const WrapperContact = styled(Wrapper)`
-  text-align: center;
   @media (max-width: 380px) {
+    text-align: center;
     & div:first-child {
       word-break: break-word;
-    }
-  }
-`;
-
-export const H2Contact = styled(H2)`
-  margin-top: 0;
-
-  @media (max-width: 190px) {
-    & {
-      word-break: break-word;
-      text-align: center;
     }
   }
 `;
@@ -47,5 +36,14 @@ export const SocialWrapper = styled.div`
     & a {
       margin-right: 0;
     }
+  }
+`;
+
+export const H2Contact = styled(H2)`
+  margin-top: 0;
+
+  @media (max-width: 190px) {
+    word-break: break-word;
+    text-align: center;
   }
 `;
